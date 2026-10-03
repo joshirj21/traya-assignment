@@ -1,0 +1,107 @@
+{
+  "getUserSuccess": {
+    "status": 200,
+    "data": {
+      "user": {
+        "name": "Rahul Joshi",
+        "age": 28,
+        "height": 170,
+        "weight": 60
+      }
+    }
+  },
+  "getUserUpdated": {
+    "status": 200,
+    "data": {
+      "user": {
+        "name": "Rahul Joshi",
+        "age": 28,
+        "height": 170,
+        "weight": 62.5
+      }
+    }
+  },
+  "getUserMinimal": {
+    "status": 200,
+    "data": {
+      "user": {
+        "name": "Rahul Joshi",
+        "age": 28,
+        "height": 170,
+        "weight": 60
+      }
+    }
+  },
+  "errorBadRequest": {
+    "status": 400,
+    "error": {
+      "code": "BAD_REQUEST",
+      "message": "Invalid user parameters provided",
+      "retryable": false
+    }
+  },
+  "errorUnauthorized": {
+    "status": 401,
+    "error": {
+      "code": "UNAUTHORIZED",
+      "message": "Authentication required to fetch user details",
+      "retryable": false
+    }
+  },
+  "errorNotFound": {
+    "status": 404,
+    "error": {
+      "code": "USER_NOT_FOUND",
+      "message": "User details not found",
+      "retryable": false
+    }
+  },
+  "errorTimeout": {
+    "status": 408,
+    "error": {
+      "code": "REQUEST_TIMEOUT",
+      "message": "The server timed out waiting for the request",
+      "retryable": true
+    }
+  },
+  "errorRateLimit": {
+    "status": 429,
+    "error": {
+      "code": "RATE_LIMIT_EXCEEDED",
+      "message": "Too many requests. Please slow down and retry.",
+      "retryable": true
+    }
+  },
+  "errorInternalServer": {
+    "status": 500,
+    "error": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "An unexpected server error occurred",
+      "retryable": false
+    }
+  },
+  "errorServiceUnavailable": {
+    "status": 503,
+    "error": {
+      "code": "SERVICE_UNAVAILABLE",
+      "message": "Service is temporarily overloaded or under maintenance",
+      "retryable": true
+    }
+  },
+  "duplicateResponse": {
+    "status": 200,
+    "data": {
+      "user": {
+        "name": "Rahul Joshi",
+        "age": 28,
+        "height": 170,
+        "weight": 60
+      }
+    },
+    "headers": {
+      "X-Idempotency-Replay": "true",
+      "X-Request-Id": "req_dup_01"
+    },
+    "isDuplicate": true
+  }
+}

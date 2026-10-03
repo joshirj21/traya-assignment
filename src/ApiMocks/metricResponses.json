@@ -1,0 +1,215 @@
+{
+  "7_days": {
+    "status": 200,
+    "data": {
+      "period": "7_days",
+      "weightGoal": {
+        "targetWeight": 70.0,
+        "currentWeight": 72.5,
+        "startWeight": 75.0,
+        "targetSetDate": "21 Sep 2026",
+        "progressPercent": 83,
+        "remainingKg": 2.5
+      },
+      "coreMetrics": [
+        {
+          "id": "weight",
+          "title": "Weight",
+          "value": "72.5",
+          "unit": "kg",
+          "goal": "Target: 70.0 kg",
+          "iconName": "weight",
+          "measuredAt": "2026-10-02T07:15:00Z"
+        },
+        {
+          "id": "steps",
+          "title": "Steps",
+          "value": "8,420",
+          "unit": "steps",
+          "goal": "Goal: 10,000 steps",
+          "iconName": "steps",
+          "measuredAt": "2026-10-02T19:30:00Z"
+        },
+        {
+          "id": "sleep",
+          "title": "Sleep",
+          "value": "7h 42m",
+          "goal": "Goal: 8h 00m",
+          "iconName": "sleep",
+          "measuredAt": "2026-10-02T07:00:00Z"
+        },
+        {
+          "id": "calories",
+          "title": "Calories",
+          "value": "2,150",
+          "unit": "kcal",
+          "goal": "Burned today",
+          "iconName": "calories",
+          "measuredAt": "2026-10-02T20:00:00Z"
+        },
+        {
+          "id": "water",
+          "title": "Water",
+          "value": "2.1",
+          "unit": "L",
+          "goal": "Goal: 3.0 L",
+          "iconName": "water",
+          "measuredAt": "2026-10-02T18:45:00Z"
+        },
+        {
+          "id": "activity",
+          "title": "Activity",
+          "value": "45",
+          "unit": "min",
+          "goal": "Goal: 60 min",
+          "iconName": "activity",
+          "measuredAt": "2026-10-02T17:30:00Z"
+        }
+      ],
+      "lastSyncedAt": "2 Oct 2026, 10:45 AM",
+      "fetchedAt": "2026-10-02T05:15:00Z"
+    }
+  },
+  "30_days": {
+    "status": 200,
+    "data": {
+      "period": "30_days",
+      "weightGoal": {
+        "targetWeight": 70.0,
+        "currentWeight": 72.5,
+        "startWeight": 76.5,
+        "targetSetDate": "1 Sep 2026",
+        "progressPercent": 62,
+        "remainingKg": 2.5
+      },
+      "coreMetrics": [
+        {
+          "id": "weight",
+          "title": "Weight (Avg)",
+          "value": "73.2",
+          "unit": "kg",
+          "goal": "Target: 70.0 kg",
+          "iconName": "weight",
+          "measuredAt": "2026-10-02T07:15:00Z"
+        },
+        {
+          "id": "steps",
+          "title": "Steps (Avg)",
+          "value": "9,150",
+          "unit": "steps",
+          "goal": "Goal: 10,000 steps",
+          "iconName": "steps",
+          "measuredAt": "2026-10-02T19:30:00Z"
+        },
+        {
+          "id": "sleep",
+          "title": "Sleep (Avg)",
+          "value": "7h 15m",
+          "goal": "Goal: 8h 00m",
+          "iconName": "sleep",
+          "measuredAt": "2026-10-02T07:00:00Z"
+        },
+        {
+          "id": "calories",
+          "title": "Calories (Avg)",
+          "value": "2,280",
+          "unit": "kcal",
+          "goal": "Daily avg",
+          "iconName": "calories",
+          "measuredAt": "2026-10-02T20:00:00Z"
+        },
+        {
+          "id": "water",
+          "title": "Water (Avg)",
+          "value": "2.4",
+          "unit": "L",
+          "goal": "Goal: 3.0 L",
+          "iconName": "water",
+          "measuredAt": "2026-10-02T18:45:00Z"
+        },
+        {
+          "id": "activity",
+          "title": "Activity (Avg)",
+          "value": "52",
+          "unit": "min",
+          "goal": "Goal: 60 min",
+          "iconName": "activity",
+          "measuredAt": "2026-10-02T17:30:00Z"
+        }
+      ],
+      "lastSyncedAt": "2 Oct 2026, 10:45 AM",
+      "fetchedAt": "2026-10-02T05:15:00Z"
+    }
+  },
+  "3_months": {
+    "status": 200,
+    "data": {
+      "period": "3_months",
+      "weightGoal": {
+        "targetWeight": 70.0,
+        "currentWeight": 72.5,
+        "startWeight": 78.0,
+        "targetSetDate": "1 Jul 2026",
+        "progressPercent": 69,
+        "remainingKg": 2.5
+      },
+      "coreMetrics": [
+        {
+          "id": "weight",
+          "title": "Weight (Trend)",
+          "value": "74.8",
+          "unit": "kg",
+          "goal": "Target: 70.0 kg",
+          "iconName": "weight",
+          "measuredAt": "2026-10-02T07:15:00Z"
+        },
+        {
+          "id": "steps",
+          "title": "Steps (Avg)",
+          "value": "8,800",
+          "unit": "steps",
+          "goal": "Goal: 10,000 steps",
+          "iconName": "steps",
+          "measuredAt": "2026-10-02T19:30:00Z"
+        },
+        {
+          "id": "sleep",
+          "title": "Sleep (Avg)",
+          "value": "7h 30m",
+          "goal": "Goal: 8h 00m",
+          "iconName": "sleep",
+          "measuredAt": "2026-10-02T07:00:00Z"
+        },
+        {
+          "id": "calories",
+          "title": "Calories (Avg)",
+          "value": "2,190",
+          "unit": "kcal",
+          "goal": "Daily avg",
+          "iconName": "calories",
+          "measuredAt": "2026-10-02T20:00:00Z"
+        },
+        {
+          "id": "water",
+          "title": "Water (Avg)",
+          "value": "2.3",
+          "unit": "L",
+          "goal": "Goal: 3.0 L",
+          "iconName": "water",
+          "measuredAt": "2026-10-02T18:45:00Z"
+        },
+        {
+          "id": "activity",
+          "title": "Activity (Avg)",
+          "value": "48",
+          "unit": "min",
+          "goal": "Goal: 60 min",
+          "iconName": "activity",
+          "measuredAt": "2026-10-02T17:30:00Z"
+        }
+      ],
+      "lastSyncedAt": "2 Oct 2026, 10:45 AM",
+      "fetchedAt": "2026-10-02T05:15:00Z"
+    }
+  }
+}

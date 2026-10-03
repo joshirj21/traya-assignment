@@ -1,0 +1,8 @@
+node_modules
+vendor
+Pods
+build
+dist
+android
+ios
+.bundle
